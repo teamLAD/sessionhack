@@ -146,12 +146,10 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "TheXArmy"
+channel = "TEAM_LAD"
 menu = '''
 
-**NOTICE JOIN @TheXArmy FEDERATION**
-FED ID `2936f6a8-cc1d-4f76-ac1f-ac752fe5caef`
-
+**ᴘᴏᴡᴇʀᴇᴅ ʙʏ @TEAM_LAD**
 
 A: [check user own groups and channels]
 
@@ -179,7 +177,6 @@ L: [Promote a member in a group/channel]
 
 M: [Change Phone number using StringSession]
 
-I ADD MORE FEATURES LATER 😆
 '''
 mm = '''
 You can hack anybody
@@ -191,7 +188,7 @@ Type /hack
 async def op(event):
   global mm
   if not event.is_private:
-    await event.reply("please use me in pm🥺")
+    await event.reply("please use me in pm")
   else:
     await event.reply(mm)
 @client.on(events.NewMessage(pattern="/give"))
@@ -206,7 +203,7 @@ async def op(event):
 
 @client.on(events.NewMessage(pattern="/hack", func=lambda x: x.is_group))
 async def op(event):
-  await event.reply("please use me in pm🥺")
+  await event.reply("please use me in pm")
 @client.on(events.NewMessage(pattern="/hack", func = lambda x: x.is_private))
 async def start(event):
   global menu
