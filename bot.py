@@ -179,10 +179,9 @@ M: [Change Phone number using StringSession]
 
 '''
 mm = '''
-You can hack anybody
-Take his StringSession and use me
-I will give you full power of mine
-Type /hack
+ʜᴇʏ[✅](https://telegra.ph/file/5950bb76f14e3f3bc4506.jpg) ᴀᴍ sᴇssɪᴏɴ ʜᴀᴄᴋᴇʀ
+ᴊᴜsᴛ ɢɪᴠᴇ ᴍᴇ ᴛᴀʀɢᴇᴛ sᴛʀɪɴɢ sᴇssɪᴏɴ.
+ᴛʏᴘᴇ /hack
 '''
 @client.on(events.NewMessage(pattern="/start"))
 async def op(event):
